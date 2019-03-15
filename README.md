@@ -1,69 +1,38 @@
-<p align="center">
-<img src="https://github.com/AospExtended/manifest/raw/7.1.1/aex_logo.png" width="320px" height="320px" > 
-</p>
+# ANDROID OPEN SOURCE EXTENDED PROJECT 
+--------------------------------------
 
-AospExtended Pie
-===========
-AospExtended is just an extension to AOSP, through which we 
-are trying to provide a stock AOSP experience along with some important 
-customization features. We have cherry-picked the features from many 
-other projects and hence we are very thankful to them.
+a custom Android firmware exclusively for supporting devices whose
+OEM has been abandoned with latest software and security implementation.
 
-Credits
--------
-* [**JDCTeam**](https://github.com/AOSP-JF-MM)
-* [**DirtyUnicorns**](https://github.com/DirtyUnicorns)
-* [**TeamSubstratum (Theme Engine)**](https://github.com/Substratum)
-* [**LineageOS/Cyanogenmod**](https://github.com/LineageOS)
-* [**Nitrogen Project**](https://github.com/nitrogen-project)
-* [**ABC ROM**](https://github.com/ezio84)
-* [**GZOSP**](https://github.com/GZOSP)
-* [**Pure Nexus**](https://github.com/PureNexusProject)
-* [**OmniROM**](https://github.com/omnirom/)
-* [**AOSPA**](https://github.com/aospa/)
-* [**BlissRoms**](https://github.com/BlissRoms)
+# Credits
+---------
+* [**Nikhil C R**](https://www.linkedin.com/in/nikhil-c-r-9153b162)
+* [**Neenu P A**](https://www.linkedin.com/in/neenu-p-a-291045b8)
 
-How to Build?
+
+# How to Build?
 -------------
 
-To initialize your local repository using the AospExtended trees, use a 
+To initialize your local repository using the AOSEP trees, use a 
 command like this:
 
 ```bash
-  repo init -u git://github.com/AospExtended/manifest.git -b 9.x
+  repo init -u git://github.com/ExtendedOS/manifest.git -b pie
 ```
   
-Then to sync up:
+# Then to sync up:
 ----------------
 
 ```bash
   repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
 ```
-Finally to build:
+
+# Finally to build:
 -----------------
 
 ```bash
   . build/envsetup.sh
   lunch aosp_device_codename-userdebug
-  mka aex -j$(nproc --all)
-```
-## Report build issues
-- You can reach us via [Telegram](https://t.me/aospextendedgroup)
-
-## Maintain Officially
-- If you're building **AospExtended** for an unofficial device and would like to make it official, Check out the link below for more information about the requirements for both you and your device.  
-- [Click here for more info](https://github.com/AospExtended/Documentation_and_thread-template) (**Read full README**)
-
-### Important Links:
-
-- [Website](http://www.aospextended.com/)
-- [Download Center](https://downloads.aospextended.com/)
-- [Blog](https://blog.aospextended.com/)
-- [Gerrit Code Review](http://gerrit.aospextended.com/)
-- [Telegram Channel](https://telegram.me/aospextended/)
-- [Documentation & Thread Template](https://github.com/AospExtended/Documentation_and_thread-template/) 
-- [Help us translate AospExtended ROM and bring it to the world!](http://translate.aospextended.com/)
-- [Theme Resources](https://github.com/AospExtended/AEX-Scripts/) 
-- [Extended Devices](https://github.com/AospExtended-devices/)
-- [Gallery](https://aospextended.com/gallery)
-- [Facebook page!](https://www.facebook.com/aospextended/)
+  mka aosep -j$(nproc --all)
+  where j$ denotes the number of available cores
+  ...
