@@ -32,7 +32,7 @@ command like this:
 
 ```bash
   . build/envsetup.sh
-  lunch aosp_device_codename-userdebug
+  lunch aosep_device_codename-userdebug
   mka aosep -j$(nproc --all)
   where j$ denotes the number of available cores
   ...
