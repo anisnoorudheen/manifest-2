@@ -6,7 +6,7 @@
   <project path="bionic" name="platform_bionic" groups="pdk" remote="aex" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="aex" />
   <project path="build/kati" name="platform_build_kati" groups="pdk,tradefed" remote="aex" />
-  <project path="build/make" name="platform_build" groups="pdk" remote="aex" >
+  <project path="build/make" name="build" groups="pdk" remote="ExtendedOS" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -25,7 +25,7 @@
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="aex" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" groups="pdk" remote="ExtendedOS" />
   <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="aex" />
-  <project path="frameworks/base" name="platform_frameworks_base" remote="ExtendedOS" />
+  <project path="frameworks/base" name="frameworks_base" remote="ExtendedOS" />
   <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="aex" />
   <project path="frameworks/support" name="platform_frameworks_support" groups="pdk" remote="aex" />
   <project path="hardware/aosp/interfaces" name="platform_hardware_aosp_interfaces" remote="aex" />
