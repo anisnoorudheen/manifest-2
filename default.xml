@@ -733,6 +733,6 @@
 
   <!-- Custom repos -->
   <include name="snippets/remove.xml" />
-  <include name="snippets/.xml" />
+  <include name="snippets/aex.xml" />
 
 </manifest>
