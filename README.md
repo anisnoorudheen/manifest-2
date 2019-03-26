@@ -8,6 +8,7 @@ OEM has been abandoned with latest software and security implementation.
 ---------
 * [**Nikhil C R**](https://www.linkedin.com/in/nikhil-c-r-9153b162)
 * [**Neenu P A**](https://www.linkedin.com/in/neenu-p-a-291045b8)
+* [**Anjali Krishnan**](https://www.linkedin.com/in/anjali-krishnan-291067b8)
 
 
 # How to Build?
