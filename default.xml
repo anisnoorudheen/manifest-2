@@ -15,7 +15,7 @@
   
   <remote  name="ExtendedOS"
            fetch="https://github.com/ExtendedOS"
-           revision="refs/heads/pie" />
+           revision="refs/heads/ten" />
 
   <remote  name="aex-lab"
            fetch="https://gitlab.com/AospExtended"
